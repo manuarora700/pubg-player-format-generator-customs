@@ -75,7 +75,7 @@ export default function Home() {
 
     players.map((player) => {
       availablePlayers.map((ap) => {
-        if (player === ap.alias.toLowerCase()) {
+        if (player.toLowerCase() === ap.alias.toLowerCase()) {
           playingPlayers.push(ap);
         }
       });

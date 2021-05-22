@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  min-width: 300px;
+}
+
+.main button {
+  margin-top: 5px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.players-box {
+  border: 4px dashed #d1d5db;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}

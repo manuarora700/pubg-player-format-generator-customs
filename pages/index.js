@@ -13,6 +13,12 @@ export default function Home() {
       characterId: "61261413914",
     },
     {
+      name: "mysticfist7",
+      alias: "jaiman",
+      discord: "jaimanyash#7505",
+      characterId: "5122944531",
+    },
+    {
       name: "BRT×M4",
       alias: "mohit",
       discord: "mycroft0307#0492",
